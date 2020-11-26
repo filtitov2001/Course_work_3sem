@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background: linear-gradient(45deg, #0c0764, #6b65db, #b2a8d7);
+    font-family: "New York Extra Large";
+}
+
+header {
+    height: 74px;
+    background-color: #29075d;
+}
+h1
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    color: #ffffff
+}
+h2
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    color: #ffffff
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+
+}
+.navigation {
+    display: flex;
+    height: 74px;
+}
+.navigation a {
+    font-size: 28px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px 60px;
+
+}
+
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    padding-left: 0; /*убираем отступы*/
+    margin: 0; /*убираем отступы*/
+    background: #29075d; /*добавляем фон всему меню*/
+
+}
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color:#fff; /*меняем цвет ссылок*/
+    padding:0px 15px; /*добавляем отступ*/
+    font-family: "New York"; /*меняем шрифт*/
+    line-height:50px; /*ровняем меню по вертикали*/
+    display: block;
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+
+
+li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    position:relative; /*задаем позицию для позиционирования*/
+
+}
+
+/*Стили для скрытого выпадающего меню*/
+li > ul {
+    position:absolute;
+    top:74px;
+    display:none;
+}
+
+/*Делаем скрытую часть видимой*/
+li:hover > ul {
+    display:block;
+    width:250px;  /*Задаем ширину выпадающего меню*/
+    margin-left: 20px;
+    text-align: center;
+    background: #8000ff;
+    z-index: 100;
+}
+li:hover > ul > li {
+    float:none; /*Убираем горизонтальное позиционирование*/
+}
+.logo
+{
+    margin-top: 15px;
+}

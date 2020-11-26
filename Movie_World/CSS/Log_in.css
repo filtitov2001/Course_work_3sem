@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: url("Images_for_CSS/theater.png");
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 104%;
+    font-family: "New York";
+}
+.wrapper
+{
+    padding-top: 10px;
+    margin: 140px auto;
+    width: 380px;
+    height: 320px;
+    background: #ffc0cb;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    background: rgba(0,0,0,0.7);
+
+}
+
+input
+{
+    width: 260px;
+    color: black;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+    border: none;
+
+}
+
+.wrapper a:hover{
+    color: #8000ff;
+}
+
+.wrapper a{
+    font-size: 15px;
+    color: #ffc0cb;
+    text-decoration: none;
+}
+
+.one
+{
+    color: #ff0066;
+    font-size: 25px;
+    background: rgba(255, 0, 102, 0.2);
+
+}
+
+.two
+{
+    background: #4c0eb8;
+
+}
+
+.two:hover
+{
+    background: #310680;
+
+}
+
+span{
+    background: #6d71b8;
+    padding: 4px 6px 4px 4px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: default;
+}
+
+span:hover
+{
+    color: red;
+}
+
+h1
+{
+    color: #0f27c8;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+img
+{
+    border: 10px;
+    color: black;
+}
