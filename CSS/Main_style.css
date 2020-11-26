@@ -92,3 +92,38 @@ li:hover > ul > li {
 {
     margin-top: 15px;
 }
+@media screen and (max-width: 1300px) {
+    .navigation a {
+        font-size: 20px;
+        margin: 23px 40px;
+    }
+    }
+    a {
+
+        line-height:40px; /*ровняем меню по вертикали*/
+
+}
+@media screen and (max-width: 900px) {
+    .navigation a {
+        font-size: 7px;
+        margin: 23px 40px;
+    }
+
+
+    a {
+        line-height:5px; /*ровняем меню по вертикали*/
+    }
+
+}
+@media screen and (max-width: 1160px) {
+    .navigation a {
+        font-size: 10px;
+        margin: 25px 40px;
+    }
+
+
+    a {
+        line-height:5px; /*ровняем меню по вертикали*/
+    }
+
+}
