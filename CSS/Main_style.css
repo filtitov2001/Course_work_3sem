@@ -32,14 +32,14 @@ h2
 .navigation {
     display: flex;
     height: 74px;
+
 }
 .navigation a {
     font-size: 28px;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
-    margin: 10px 60px;
-
+    margin: 17px 60px;
 }
 
 
@@ -93,7 +93,7 @@ li:hover > ul > li {
     margin-top: 15px;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1550px) {
     .navigation a {
         font-size: 20px;
         margin: 23px 40px;
@@ -107,7 +107,7 @@ li:hover > ul > li {
 @media screen and (max-width: 900px) {
     .navigation a {
         font-size: 7px;
-        margin: 23px 40px;
+        margin: 30px 40px;
     }
 
 
@@ -119,7 +119,7 @@ li:hover > ul > li {
 @media screen and (max-width: 1160px) {
     .navigation a {
         font-size: 10px;
-        margin: 25px 40px;
+        margin: 40px 40px;
     }
 
 
