@@ -104,15 +104,20 @@ li:hover > ul > li {
         line-height:40px; /*ровняем меню по вертикали*/
 
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
     .navigation a {
-        font-size: 7px;
-        margin: 30px 40px;
+        font-size: 5px;
+        margin: 10px 20px;
     }
 
 
     a {
-        line-height:5px; /*ровняем меню по вертикали*/
+        line-height:2px; /*ровняем меню по вертикали*/
+    }
+
+    li
+    {
+        width: 100px;
     }
 
 }
