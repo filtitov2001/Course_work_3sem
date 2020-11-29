@@ -98,10 +98,11 @@ li:hover > ul > li {
         font-size: 20px;
         margin: 23px 40px;
     }
-    }
+
     a {
 
-        line-height:40px; /*ровняем меню по вертикали*/
+        line-height: 40px; /*ровняем меню по вертикали*/
+    }
 
 }
 @media screen and (max-width: 840px) {
