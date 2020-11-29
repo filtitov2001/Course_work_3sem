@@ -57,16 +57,14 @@
     background: url("Images_for_CSS/avengers.png");
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
 
     .slider{
 
-        width: 500px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
 
-    }
-    .slide
-    {
-        width: 50%;
     }
 
 
