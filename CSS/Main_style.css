@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background: linear-gradient(45deg, #0c0764, #6b65db, #b2a8d7);
-    font-family: "New York Extra Large";
+    background: linear-gradient(45deg, #0c0764, #1f16ae, #6b65db, #b2a8d7);
+    font-family: "SF Pro Text";
 }
 
 header {
@@ -54,7 +54,7 @@ a {
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
     color:#fff; /*меняем цвет ссылок*/
     padding:0px 15px; /*добавляем отступ*/
-    font-family: "New York"; /*меняем шрифт*/
+    font-family: "SF Pro Text"; /*меняем шрифт*/
     line-height:50px; /*ровняем меню по вертикали*/
     display: block;
     -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
@@ -107,7 +107,7 @@ li:hover > ul > li {
 }
 @media screen and (max-width: 840px) {
     .navigation a {
-        font-size: 5px;
+        font-size: 20px;
         margin: 10px 20px;
     }
 
@@ -124,7 +124,7 @@ li:hover > ul > li {
 }
 @media screen and (max-width: 1160px) {
     .navigation a {
-        font-size: 10px;
+        font-size: 20px;
         margin: 40px 40px;
     }
 

@@ -14,7 +14,6 @@
     list-style-type: none;
     border-radius: 20px;
 }
-
 .slide{
     position: absolute;
     left: 0px;
@@ -66,17 +65,11 @@
         margin-right: auto;
 
     }
-
-
 }
 @media screen and (max-width: 1500px) {
 
     .slider{
 
         width: 1000px;
-
-
     }
-
-
 }

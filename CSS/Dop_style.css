@@ -41,3 +41,28 @@ a{
     color: #310680;
     z-index: 100;
 }
+.info
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    color: #ffffff
+}
+
+@media screen and (max-width: 600px) {
+
+    .info{
+
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+@media screen and (max-width: 1500px) {
+
+    .info{
+
+        width: 1000px;
+    }
+}
