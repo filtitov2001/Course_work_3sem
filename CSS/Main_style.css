@@ -113,8 +113,6 @@ li:hover > ul > li {
     a {
         line-height:5px; /*ровняем меню по вертикали*/
     }
-    body {
-        background-size: 800px 700px;
-    }
+
 }
 
