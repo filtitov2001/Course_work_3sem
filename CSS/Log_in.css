@@ -4,11 +4,11 @@
 }
 body
 {
-    background: url("Images_for_CSS/theater.png") center center  no-repeat fixed;
-    -moz-background-size: 100%;
-    -webkit-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    background: url("Images_for_CSS/theater.png") no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family: "SF Pro Text";
 
 }
@@ -87,12 +87,5 @@ img
     color: black;
 }
 
-@media screen and (max-width: 1670px) {
-
-    body{
-        background-size: auto;
-
-    }
-}
 
 
