@@ -124,7 +124,7 @@ li:hover > ul > li {
 }
 @media screen and (max-width: 1160px) {
     .navigation a {
-        font-size: 15px;
+        font-size: 10px;
         margin: 40px 40px;
     }
 
