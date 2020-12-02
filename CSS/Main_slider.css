@@ -74,7 +74,7 @@
 
     }
     .slide:nth-of-type(1){
-        background-size: 300px 1000px;
+        background-size:  1000px 300px;
     }
 
 }
