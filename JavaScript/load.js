@@ -1,53 +1,39 @@
 function getWindowHeight() {
     var myWidth = 0, myHeight = 0;
     if( typeof( window.innerWidth ) == 'number' ) {
-        //Non-IE
-        myHeight = window.innerHeight;
-    } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
-        //IE 6+ in 'standards compliant mode'
+        myHeight = window.innerHeight;}
+    else if(document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight))
+    {
         myHeight = document.documentElement.clientHeight;
     } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
-        //IE 4 compatible
         myHeight = document.body.clientHeight;
     }
-
     return myHeight
 }
-
-function appearBox(element, element_top, bottom_of_window) {
-    /* If the object is completely visible in the window, fade it it */
+function appearBox(element, element_top, bottom_of_window) { // появление элемента
     const buffer = element.outerHeight() / 2;
-    if( bottom_of_window > element_top + buffer) {
+    if( bottom_of_window > element_top + buffer) {  /* Если объект в зоне видимости, появляется  */
         setTimeout(function(){
             element.removeClass('trigger').animate({'opacity':'1'}, element.data('speed'))
         }, element.data('delay'));
     }
 }
-
-
 (function($) {
     $(window).load(function() {
         $('.load-box').each( function(i){
             var element_offset = $(this).offset(),
                 element_top = element_offset.top;
             let bottom_of_window = $(window).scrollTop() + getWindowHeight();
-
             appearBox($(this), element_top, bottom_of_window);
         });
-
-        /* Every time the window is scrolled ... */
-        $(window).scroll( function() {
-            /* Check the location of each desired element */
-            $('.load-box').each( function(i){
-
+        $(window).scroll( function() {   /* Когда происходит скроллинг ... */
+            $('.load-box').each( function(i){  /* проверка позиции каждого элемента при скролинге */
                 var element_offset = $(this).offset(),
                     element_top = element_offset.top;
                 let bottom_of_window = $(window).scrollTop() + getWindowHeight();
-
                 appearBox($(this), element_top, bottom_of_window);
-
             });
-
         });
     });
 })(jQuery);
+
