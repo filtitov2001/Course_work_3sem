@@ -34,7 +34,7 @@ a{
     color: #310680;
     z-index: 100;
 }
-.lazy-load-box {
+.load-box {
     opacity: 0;
     -moz-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
     -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
@@ -42,12 +42,6 @@ a{
     -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
     transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
 }
-
-
-
-
-
-
 .info
 {
     margin-left: auto;
