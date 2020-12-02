@@ -71,6 +71,9 @@
     .slider{
 
         width: 1000px;
+
+    }
+    .slide:nth-of-type(1){
         background-size: 300px 1000px;
     }
 
