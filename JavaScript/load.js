@@ -27,7 +27,7 @@ function appearBox(element, element_top, bottom_of_window) {
 
 (function($) {
     $(window).load(function() {
-        $('.lazy-load-box').each( function(i){
+        $('.load-box').each( function(i){
             var element_offset = $(this).offset(),
                 element_top = element_offset.top;
             bottom_of_window = $(window).scrollTop() + getWindowHeight();
@@ -38,7 +38,7 @@ function appearBox(element, element_top, bottom_of_window) {
         /* Every time the window is scrolled ... */
         $(window).scroll( function() {
             /* Check the location of each desired element */
-            $('.lazy-load-box').each( function(i){
+            $('.load-box').each( function(i){
 
                 var element_offset = $(this).offset(),
                     element_top = element_offset.top;
