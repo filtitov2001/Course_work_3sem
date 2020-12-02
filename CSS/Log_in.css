@@ -1,17 +1,16 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
-
 body
 {
-    background-image: url("Images_for_CSS/theater.png");
+    background: url("Images_for_CSS/theater.png") center center  no-repeat fixed;
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
-    background-size: 110%;
+    background-size: 100%;
     font-family: "SF Pro Text";
+
 }
 .wrapper
 {
@@ -23,9 +22,7 @@ body
     text-align: center;
     border-radius: 10px 10px 10px 10px;
     background: rgba(0,0,0,0.7);
-
 }
-
 input
 {
     width: 260px;
@@ -90,32 +87,12 @@ img
     color: black;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1670px) {
 
     body{
-        -moz-background-size: 100%;
-        -webkit-background-size: 100%;
-        -o-background-size: 100%;
-        background-size: 130%;
+        background-size: auto;
+
     }
 }
 
-@media screen and (max-width: 1300px) {
 
-    body{
-        -moz-background-size: 100%;
-        -webkit-background-size: 100%;
-        -o-background-size: 100%;
-        background-size: 150%;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-
-    body{
-        -moz-background-size: 100%;
-        -webkit-background-size: 100%;
-        -o-background-size: 100%;
-        background-size: 170%;
-    }
-}
