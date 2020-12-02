@@ -16,7 +16,7 @@ function getWindowHeight() {
 
 function appearBox(element, element_top, bottom_of_window) {
     /* If the object is completely visible in the window, fade it it */
-    var buffer = element.outerHeight()/2;
+    const buffer = element.outerHeight() / 2;
     if( bottom_of_window > element_top + buffer) {
         setTimeout(function(){
             element.removeClass('trigger').animate({'opacity':'1'}, element.data('speed'))
@@ -30,7 +30,7 @@ function appearBox(element, element_top, bottom_of_window) {
         $('.load-box').each( function(i){
             var element_offset = $(this).offset(),
                 element_top = element_offset.top;
-            bottom_of_window = $(window).scrollTop() + getWindowHeight();
+            let bottom_of_window = $(window).scrollTop() + getWindowHeight();
 
             appearBox($(this), element_top, bottom_of_window);
         });
@@ -42,7 +42,7 @@ function appearBox(element, element_top, bottom_of_window) {
 
                 var element_offset = $(this).offset(),
                     element_top = element_offset.top;
-                bottom_of_window = $(window).scrollTop() + getWindowHeight();
+                let bottom_of_window = $(window).scrollTop() + getWindowHeight();
 
                 appearBox($(this), element_top, bottom_of_window);
 
