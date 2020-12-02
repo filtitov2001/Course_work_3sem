@@ -4,7 +4,6 @@
     margin-right: auto;
     width: 1300px;
     border-radius: 20px;
-
 }
 #slides{
     position: relative;
@@ -14,7 +13,6 @@
     list-style-type: none;
     border-radius: 20px;
 }
-
 .slide{
     position: absolute;
     left: 0px;
@@ -35,7 +33,6 @@
     opacity: 1;
     z-index: 2;
 }
-
 .slide{
     font-size: 40px;
     padding: 40px;
@@ -57,21 +54,39 @@
     background: url("Images_for_CSS/pursuit.png");
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
 
     .slider{
-
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-
+        width: 700px;
+    }
+    .slide:nth-of-type(1){
+        background-size:  700px 400px;
+    }
+    .slide:nth-of-type(2){
+        background-size:  700px 400px;
+    }
+    .slide:nth-of-type(3){
+        background-size:  700px 400px;
+    }
+    .slide:nth-of-type(4){
+        background-size:  700px 400px;
     }
 }
 @media screen and (max-width: 1500px) {
-
     .slider{
-
         width: 1000px;
+    }
+    .slide:nth-of-type(1){
+        background-size:  1000px 400px;
+    }
+    .slide:nth-of-type(2){
+        background-size:  1000px 400px;
+    }
+    .slide:nth-of-type(3){
+        background-size:  1000px 400px;
+    }
+    .slide:nth-of-type(4){
+        background-size:  1000px 400px;
     }
 }
 
