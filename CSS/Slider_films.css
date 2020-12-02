@@ -57,3 +57,21 @@
     background: url("Images_for_CSS/pursuit.png");
 }
 
+@media screen and (max-width: 600px) {
+
+    .slider{
+
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+@media screen and (max-width: 1500px) {
+
+    .slider{
+
+        width: 1000px;
+    }
+}
+

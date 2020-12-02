@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28326dd6-e797-476c-a4da-4ab0a9a0d96d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CSS/Main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Main_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Slider_films.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Slider_films.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Slider_mult.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Slider_mult.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Slider_tv.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Slider_tv.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
       <workItem from="1606473876215" duration="1078000" />
       <workItem from="1606659299573" duration="2646000" />
       <workItem from="1606741952571" duration="790000" />
-      <workItem from="1606863323444" duration="1855000" />
+      <workItem from="1606863323444" duration="2429000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1606865020543</created>
@@ -49,7 +51,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606865020543</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit for links">
+      <created>1606865224797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606865224797</updated>
+    </task>
+    <task id="LOCAL-00003" summary="color">
+      <created>1606865457660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606865457660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -57,16 +73,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="commit for links" />
+    <MESSAGE value="color" />
+    <option name="LAST_COMMIT_MESSAGE" value="color" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="87" y="105" key="CommitChangelistDialog2" timestamp="1606865020316">
+    <state x="87" y="105" key="CommitChangelistDialog2" timestamp="1606865457539">
       <screen x="0" y="25" width="1792" height="1015" />
     </state>
-    <state x="87" y="105" key="CommitChangelistDialog2/0.25.1792.1015@0.25.1792.1015" timestamp="1606865020316" />
-    <state x="112" y="269" key="Vcs.Push.Dialog.v2" timestamp="1606865027292">
+    <state x="87" y="105" key="CommitChangelistDialog2/0.25.1792.1015@0.25.1792.1015" timestamp="1606865457539" />
+    <state x="112" y="269" key="Vcs.Push.Dialog.v2" timestamp="1606865461850">
       <screen x="0" y="25" width="1792" height="1015" />
     </state>
-    <state x="112" y="269" key="Vcs.Push.Dialog.v2/0.25.1792.1015@0.25.1792.1015" timestamp="1606865027292" />
+    <state x="112" y="269" key="Vcs.Push.Dialog.v2/0.25.1792.1015@0.25.1792.1015" timestamp="1606865461850" />
   </component>
 </project>
