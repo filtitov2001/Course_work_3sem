@@ -4,50 +4,40 @@
     height: 300px;
     background: #000 url('https://hsto.org/files/ad0/ac2/e32/ad0ac2e32be44930ac76e212245e2e67.png');
 }
-
 .shimmer, .shimmer_2, .shimmer_3, .shimmer_4 {
     position: absolute;
     top: 0;
     left: 0;
-
     width: 100%;
     height: 100%;
-
     opacity: 0;
-
     background: url('https://hsto.org/files/e77/a7c/af9/e77a7caf9935450fadf788ed0e98e9f1.png');
-
     -webkit-animation: stars 5s linear infinite;
     animation: stars 5s linear infinite;
 }
-
 .shimmer_2 {
     background-position: 100px 100px;
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
-
 .shimmer_3 {
     background-image: url('https://hsto.org/files/72e/5d6/4c5/72e5d64c5b7444aa81987f069417435b.png');
     background-position: 300px 100px;
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
 }
-
 .shimmer_4 {
     background-image: url('https://hsto.org/files/72e/5d6/4c5/72e5d64c5b7444aa81987f069417435b.png');
     background-position: 0 0;
     -webkit-animation-delay: 5s;
     animation-delay: 5s;
 }
-
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-
     background: -webkit-linear-gradient(left, rgba(0, 0, 255, 0.3), rgba(255, 255, 255, 0));
 }
 
@@ -60,3 +50,4 @@
     0%, 50%, 100% {opacity: 0;}
     50%, 45% {opacity: 1;}
 }
+

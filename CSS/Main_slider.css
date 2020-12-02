@@ -71,5 +71,7 @@
     .slider{
 
         width: 1000px;
+        background-size: 300px 1000px;
     }
+
 }
