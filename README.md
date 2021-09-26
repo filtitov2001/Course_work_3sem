@@ -3,7 +3,7 @@
 
 
 
-
+<div align="center">
 ![Logo](https://github.com/filtitov2001/MovieWorld/blob/main/Images/logo2.png)
 
     
@@ -13,7 +13,7 @@
 [![jQuery](https://img.shields.io/badge/jQuery-3.4.1-yellowgreen)](https://jquery.com)
 
   
-<div align="center">
+
 ###### Simple Web-site for fronted coursework, which I've done for 7 hours. Visit it [here](https://filtitov2001.github.io/MovieWorld/)
 </div>
 
