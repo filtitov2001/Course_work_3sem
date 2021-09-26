@@ -2,7 +2,7 @@
 <h1 align="center"> Movie World </h1>
 
 
-<img src="https://github.com/filtitov2001/MovieWorld/blob/main/Images/logo2.png">
+<img align="center" src="https://github.com/filtitov2001/MovieWorld/blob/main/Images/logo2.png">
 
 <div align="center">
   
