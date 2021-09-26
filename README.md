@@ -3,10 +3,10 @@
 
 
 
-<div align="center">
-![Logo](https://github.com/filtitov2001/MovieWorld/blob/main/Images/logo2.png)
 
-    
+<img src="https://github.com/filtitov2001/MovieWorld/blob/main/Images/logo2.png">
+
+<div align="center">
 [![HTML](https://img.shields.io/badge/HTML-5-red)](https://www.html.com/)
 [![CSS](https://img.shields.io/badge/CSS-3-blue)](https://www.w3.org/Style/CSS/Overview.en.html)
 [![JavaScript](https://img.shields.io/badge/JavaScript--yellow)](https://www.javascript.com)
